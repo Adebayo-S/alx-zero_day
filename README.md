@@ -1,13 +1,3 @@
 My first readme
 
-```mermaid
-flowchart TB
-    S[Start] --> A;
-    A(Enter your email address) --> B{Existing user};
-    B -->|No| C(Enter name)
-    C --> D{Accept conditions?}
-    D --> |No| A
-    D --> |Yes| E(Send link with magic link)
-    B --> |Yes| E
-    E --> End;
-```
+[![](https://mermaid.ink/img/pako:eNpVkEFuwyAQRa8yYhVLyQVcqZUds83G3VR1FwjGNqqBCAalke27l2BHalkxb96HgZlJp5CVrJ_cTY7CE7zXnYW02s-WUv0Fp9MrVC8brA7cEnq4u-gBjdATCKU8hlBkr575jw6k7QAxoF_3WP1oLhe3wHk_wAqDxdY852QzV1LilUA6qzRpZ8PbuglNFnK8-kc-MCzADy1aBZO233DTNIIRg5a5Lv7c_rQ3xDPiVuUB2ZEZ9Ok1Kv3E_CAdoxENdqxMW4W9iBN1rLNrUuNVCUKehnSelb2YAh6ZiOTau5WsJB_xKTVaDF6Y3Vp_Ab0gcrk)](https://mermaid.live/edit#pako:eNpVkEFuwyAQRa8yYhVLyQVcqZUds83G3VR1FwjGNqqBCAalke27l2BHalkxb96HgZlJp5CVrJ_cTY7CE7zXnYW02s-WUv0Fp9MrVC8brA7cEnq4u-gBjdATCKU8hlBkr575jw6k7QAxoF_3WP1oLhe3wHk_wAqDxdY852QzV1LilUA6qzRpZ8PbuglNFnK8-kc-MCzADy1aBZO233DTNIIRg5a5Lv7c_rQ3xDPiVuUB2ZEZ9Ok1Kv3E_CAdoxENdqxMW4W9iBN1rLNrUuNVCUKehnSelb2YAh6ZiOTau5WsJB_xKTVaDF6Y3Vp_Ab0gcrk)
